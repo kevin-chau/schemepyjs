@@ -678,7 +678,7 @@ utils = """
 
 """
 
-def make_check_scheme(file='questions.scm'):
+def make_check_scheme(file='../scm/questions.scm'):
     """Check a Scheme question."""
     with open(file, 'r') as f:
         contents = utils + f.read()

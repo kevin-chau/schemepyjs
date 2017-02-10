@@ -68,7 +68,7 @@ class TestReader:
         raise EOFError
 
 @main
-def run_tests(src_file='tests.scm'):
+def run_tests(src_file='../scm/tests.scm'):
     """Run a read-eval loop that reads from src_file and collects outputs."""
     sys.stderr = sys.stdout = io.StringIO() # Collect output to stdout and stderr
     reader = None
